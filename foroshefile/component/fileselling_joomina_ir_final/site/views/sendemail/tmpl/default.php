@@ -88,7 +88,7 @@ defined('_JEXEC') || die('=;)');
 			$db->setQuery($query);
 			$resu = $db->query();
  }else{
-	  echo 'کاربر گرامی مراحل پرداخت بدرستی انجام نپذیرفته است !'.;
+	  echo 'کاربر گرامی مراحل پرداخت بدرستی انجام نپذیرفته است !'.$res->Status;
 	 
 	 }else {
 		 
